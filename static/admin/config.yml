@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: premkumar-meta/static-sites
+  branch: main
+  base_url: https://api.staging.proptoll.com 
+  # base_url: http://localhost:8080
+  auth_endpoint: /api/auth
+
+# display_url: https://test2.proptoll.com/
+# site_url: https://test2.proptoll.com/
+logo_url: https://proptoll.com/assets/img/icon.png
+
+site_url: http://localhost:1313/
+display_url: http://localhost:1313/
+
+
+#npx netlify-cms-proxy-server
+local_backend: true  # Specifies that the backend is local
+# site_url: http://localhost:8081 # Specifies the site URL for the local backend
+
+
+media_folder: "static/images"
+public_folder: "/images"
+
+editor:
+  preview: true
+
+collections:
